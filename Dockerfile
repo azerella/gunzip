@@ -1,7 +1,7 @@
 FROM node:8.12.0
 
-WORKDIR /usr/src/lshw
+WORKDIR /usr/src/gunzip
 
-COPY . /usr/src/lshw
+COPY . /usr/src/gunzip
 
 CMD [ "node", "src/index.js"]

@@ -12,7 +12,7 @@ module.exports = {
 	* Print the help menu
 	 */
 	printHelp: function() {
-		console.info(`Usage: gunzip [ options ] [ --version | --decompress ]
+		console.info(`Usage: gunzip [ options ] [ filename | --version | --decompress ]
 		gunzip\nOptions:
 	-V, --version\t\tOutput gunzip version
 	-d, --decompress\tDecompress file created by gzip`);

@@ -1,6 +1,6 @@
 version: 2
 jobs:
-    build-and-test-lshw:
+    build-and-test-gunzip:
         docker:
             - image: circleci/node:8.12.0
         working_directory: ~/gunzip
@@ -42,12 +42,14 @@ jobs:
 
 workflows:
     version: 2
-    test-and-publish-lshw:
+    test-and-publish-gunzip:
         jobs:
-            - build-and-test-lshw
+            - build-and-test-gunzip
             - publish-to-npm:
                 requires:
-                  - build-and-test-lshw
+                  - build-and-test-gunzip
                 filters:
+                  tags:
+                    only: /v[0-9].[0-9].[0.9]/
                   branches:
                     only: master
