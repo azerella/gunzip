@@ -1,6 +1,6 @@
 {
   "name": "gunzip",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Node.js version of gunzip, a tool to compress or expand files",
   "repository": "https://github.com/adamzerella/gunzip",
   "author": "Adam A. Zerella <adam.zerella@gmail.com>",
@@ -15,7 +15,14 @@
     "yarn": "~1"
   },
   "keywords": [
-    "gunzip"
+	"gunzip",
+	"gnu",
+	"gzip",
+	"zip",
+	"zlib",
+	"lz77",
+	"decompress",
+	"compress"
   ],
   "bin": {
     "gunzip": "src/index.js"

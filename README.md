@@ -1,5 +1,5 @@
 # gunzip
-Node.js version of gunzip, a tool to compress or expand files.
+Node.js implementation of [gunzip](https://www.gzip.org/), a tool to compress or expand files using [LZ77](https://en.wikipedia.org/wiki/LZ77_and_LZ78) and [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding).
 
 [![CircleCI](https://circleci.com/gh/adamzerella/gunzip.svg?style=svg)](https://circleci.com/gh/adamzerella/gunzip)
 [![npm version](https://badge.fury.io/js/gunzip.svg)](https://badge.fury.io/js/gunzip)

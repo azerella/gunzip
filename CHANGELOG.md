@@ -1,3 +1,7 @@
+# 0.2.2
+-	Updated README description to link to original gzip.
+
+
 # 0.2.1
 -	Added `tag` filter to CircleCI publish configuration
 
