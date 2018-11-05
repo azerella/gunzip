@@ -1,0 +1,6 @@
+.github/
+.vscode/
+.circleci/
+.editorconfig
+Dockerfile
+.DS_Store

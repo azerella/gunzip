@@ -1,0 +1,10 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        80
+    ],
+    "editor.tabSize": 4,
+    "editor.autoIndent": true,
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false
+}
