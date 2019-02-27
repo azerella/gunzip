@@ -1,19 +1,14 @@
 {
   "name": "gunzip",
-  "version": "0.2.2",
-  "description": "Node.js version of gunzip, a tool to compress or expand files",
+  "version": "1.2.2",
+  "description": "Compress or expand files using LZ77 and Huffman coding",
   "repository": "https://github.com/adamzerella/gunzip",
-  "author": "Adam A. Zerella <adam.zerella@gmail.com>",
+  "author": "Adam Zerella <me@adamzerella.com> (https://adamzerella.com)",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node lib/index.js"
   },
   "preferGlobal": true,
-  "engines": {
-    "node": "~8",
-    "npm": "~6",
-    "yarn": "~1"
-  },
   "keywords": [
 	"gunzip",
 	"gnu",
@@ -25,6 +20,6 @@
 	"compress"
   ],
   "bin": {
-    "gunzip": "src/index.js"
+    "gunzip": "lib/index.js"
   }
 }

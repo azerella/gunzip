@@ -1,3 +1,6 @@
+# 1.2.2
+-	Simplified project structure
+
 # 0.2.2
 -	Updated README description to link to original gzip.
 
